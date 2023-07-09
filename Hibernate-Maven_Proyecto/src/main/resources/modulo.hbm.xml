@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/HibernateMappingDTD5.3//EN" "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="pac.Modulo" table="modulos" catalog="peluqueriabd">
+		<id name="id">
+			<column name="idModulo" />
+			<generator class="increment" />
+		</id>
+		<property name="nombre"></property>
+		<property name="codigo"></property>
+	</class>
+</hibernate-mapping>
